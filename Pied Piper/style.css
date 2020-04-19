@@ -1,0 +1,181 @@
+body {
+  width: 1219px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.logo {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 19px;
+  margin-left: 18%;
+}
+
+.menu {
+  display: inline-block;
+  position : absolute;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  top : 18px;
+  right: 100px;
+}
+
+.menu a {
+  color : #FFFFFF;
+}
+
+.jumbotron { 
+  background-image: url('https://i.ibb.co/JR2kJx2/image.png');
+  background-size: cover;
+  padding: 150px 0;
+  width: 1219px;
+  height: 403px;          
+  margin-bottom: 0px;
+}
+  
+.container1 {
+  width: 1219px;
+  height: 83px;
+  left: 396px;
+  padding: 160px 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  color: #FFFFFF;
+}
+  
+.jumbotron h1 { 
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 72px;
+  line-height: 84.38px;
+  line-height: 100%;
+  text-align: center;
+  vertical-align: top;
+}
+
+.problem h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center; 
+  color: #007765;
+}
+
+.problem p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  margin-left: 11%;
+  margin-right: 11%;
+  padding-left: 55px;
+  padding-right: 55px;
+  color: #000000;
+  margin-top: 0px;
+}
+
+.hero {
+  padding: 128px 0;
+  background-image: url('hero-block.png');
+  background-size: cover;
+}
+
+.container {
+  width: 1219px;
+  margin: 0 auto;
+  padding: 0 55px;
+}
+
+.hero__message {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
+}
+
+.intro h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+}
+
+.intro {
+  margin-left: 11%;
+  margin-right: 11%;
+}
+
+.intro p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.intro img {
+  margin-right: 20px;
+}
+
+.team {
+  width: 1219px;
+  padding-top: 0px;
+  padding-bottom: 179px;
+  background-color: #EEEEEE;
+  text-align: center;
+  display: inline-block;
+}
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+
+article {
+  flex-basis: 33%;
+}
+
+#footer{
+  height: 100px;
+  background-size: 100% 100%;
+  background: #333333;
+}
+
+#footer p{
+  display: block;
+  font-size: 18px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 18px;
+  text-align: center;
+  padding-top:3%;
+  padding-left:20%;
+  padding-right: 20%;
+  color: #FFFFFF;
+}
+
+#space {
+	white-space: pre-line;
+	display: block;
+}
